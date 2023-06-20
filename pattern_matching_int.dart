@@ -1,7 +1,7 @@
 // Example of pattern matching with an integer.
 
 main() {
-  [-1, 0, 1, 2, 3, 4].forEach((int i) => print(describeInteger(i)));
+  [-1, 0, 1, 2, 3, 4].forEach((int i) => print('$i: ${describeInteger(i)}'));
 }
 
 String describeInteger(int i) {
@@ -12,4 +12,3 @@ String describeInteger(int i) {
       return 'odd';
   }
 }
-
